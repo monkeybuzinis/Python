@@ -27,4 +27,5 @@ for j in range (len(v)*2):
 if v[0]=="*":
     v=v[1:]
 
+
 print(v)

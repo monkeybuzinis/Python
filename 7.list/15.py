@@ -1,4 +1,4 @@
-#a
+#a one-time pad
 from random import randint
 abc='abcdefghijklmnopqrstuvwxyz'
 
