@@ -1,4 +1,4 @@
-14
+#14
 s=input("write your name: ")
 new=''
 for i in range (1,len(s)):

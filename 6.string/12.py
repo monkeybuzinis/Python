@@ -1,4 +1,4 @@
-12
+#12
 s=input("enter a string: ")
 new=''
 s2=s[1::2].upper()

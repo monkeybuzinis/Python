@@ -1,4 +1,4 @@
-7
+#7
 for c in s:
     if c==" ":
         s=s.replace(c,"")

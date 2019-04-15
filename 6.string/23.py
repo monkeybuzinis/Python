@@ -1,5 +1,5 @@
 23
-c
+#c
 b=eval(input('enter the number: '))
 s=input('enter a string: ')
 v=''
