@@ -1,1 +1,0 @@
-a=eval(input('enter number: '))
