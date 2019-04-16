@@ -1,12 +1,11 @@
 #c
-message=input('enter your message: ')
-b=eval(input('enter the number that you want you message to be broken into: '))
-
+b=eval(input('enter the number: '))
+message=input('enter a string: ')
 encrypt=''
 for i in range (b):
     encrypt+=message[i::b]
- 
-print("\nI bet you know what I wrote: ",encrypt)
+    print(len(message[i::b]))
+print("your encrypted message: ",encrypt)
 
 #d
 n=len(encrypt)%b
@@ -30,4 +29,4 @@ else:
             decrypt+=encrypt[len(encrypt[i::b])+k+j]
             k+=len(encrypt[i::b])
 
-print('\nI dont think it is difficult! It is: ',decrypt)
+print(decrypt)
