@@ -1,6 +1,6 @@
 #c
 message=input('enter your message: ')
-b=eval(input('enter the number that you want you message to be broken into: '))
+b=eval(input('enter the number that you want your message to be broken into: '))
 
 encrypt=''
 for i in range (b):
