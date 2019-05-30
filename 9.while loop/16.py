@@ -38,13 +38,13 @@ while turn<5:
         print()
 
     # lenh tao coordinator thu 1
-    r1=eval(input("input the number of row of the 1st character (0=<r<6): "))
+    r1=eval(input("input the 1st character's row (0=<r<6): "))
     while r1 not in range (0,6):
-        r1=eval(input("wrong! the number of row of the character should be in range 0 to 6: "))
+        r1=eval(input("wrong! the number should be in range 0 to 6: "))
         
-    c1=eval(input("input the number of column of the 1st character(0=<r<6): "))
+    c1=eval(input("input the 1st character's column (0=<r<6): "))
     while c1 not in range (0,6):
-        c1=eval(input("wrong! the number of column of the character should be in range 0 to 6: "))
+        c1=eval(input("wrong! the number should be in range 0 to 6: "))
     
     #hiển thị 6x6 * với cùng character tại vị trí đã chọn:
     hidden[r1][c1]=memory_game[r1][c1]
@@ -55,13 +55,13 @@ while turn<5:
         print()
     
     # lenh tao coordinator thu 2
-    r2=eval(input("input the number of row of the 2nd character (0=<r<6): "))
+    r2=eval(input("input the 2nd character's row (0=<r<6): "))
     while r2 not in range (0,6):
-        r2=eval(input("wrong! the number of row of the character should be in range 0 to 6: "))
+        r2=eval(input("wrong! the number should be in range 0 to 6: "))
         
-    c2=eval(input("input the number of column of the 2nd character(0=<r<6): "))
+    c2=eval(input("input the 2nd character's column (0=<r<6): "))
     while c2 not in range (0,6):
-        c2=eval(input("wrong! the number of column of the character should be in range 0 to 6: "))
+        c2=eval(input("wrong! the number should be in range 0 to 6: "))
     while r2==r1 and c2==c1:
         c2=eval(input("the first coordinator and the second shound be different, enter the column again: "))
     
