@@ -9,7 +9,6 @@ while possible==0:
     L=random.sample(L,9)
     matrix=[[i for i in L] for j in range (9)]
     row=1   
-    not_use=[]
     while row<9:
         column=0         
         while column<9:
@@ -47,8 +46,8 @@ for i in range (9):
     for j in range (9):
         print(matrix[i][j],end=" ")
     print()
-print()
-print(possible)
+# print()
+# print(possible)
 
         
 

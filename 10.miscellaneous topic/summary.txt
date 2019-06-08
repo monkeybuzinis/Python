@@ -1,0 +1,8 @@
+1.str,int,float,list
+2. booleans
+3.shortcuts
+4.short-circuiting
+5.continuation
+6.pass
+7.string formatting
+8.nested loops
