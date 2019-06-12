@@ -1,0 +1,27 @@
+copy()	        They copy() method returns a shallow copy of the dictionary.
+
+clear()	        The clear() method removes all items from the dictionary.
+
+pop()	        Removes and returns an element from a dictionary having the given key.
+
+popitem()	    Removes the arbitrary key-value pair from the dictionary and returns it as tuple.
+
+get()	        It is a conventional method to access a value for a key.
+
+dictionary_name.values()	returns a list of all the values available in a given dictionary.
+
+str()	        Produces a printable string representation of a dictionary.
+
+update()	    Adds dictionary dict2’s key-values pairs to dict
+
+setdefault()	Set dict[key]=default if key is not already in dict
+
+keys()	        Returns list of dictionary dict’s keys
+
+items()	        Returns a list of dict’s (key, value) tuple pairs
+
+has_key()	    Returns true if key in dictionary dict, false otherwise
+
+fromkeys()	    Create a new dictionary with keys from seq and values set to value.
+
+type()	        Returns the type of the passed variable.
