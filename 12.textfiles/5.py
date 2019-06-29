@@ -21,7 +21,7 @@ else:
         for i in range (len(names_initial)):
             if list(initial.lower())==names_initial[i]:
                 print(name1[i])
-                count+=1
+                count=1
     else:
         
         for name in names_initial:
@@ -31,6 +31,6 @@ else:
         for i in range (len(names_initial)):
             if list(initial.lower())==names_initial[i]:
                 print(name1[i])
-                count+=1
+                count=1
 if count==0:
     print("sorry...there is no name matched")
