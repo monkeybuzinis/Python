@@ -1,0 +1,16 @@
+https://realpython.com/python3-object-oriented-programming/#classes-in-python
+
+Remember: the class is just for defining the Dog, 
+not actually creating instances of individual dogs with specific names and ages
+
+Since instances of a class have varying values we could state Dog.name = name rather than self.name = name. 
+But since not all dogs share the same name, we need to be able to assign different values to different instances. 
+Hence the need for the special self variable, which will help to keep track of individual instances of each class.
+
+Instance Attribute vs Class Attribute
+
+Chú ý:
+print("{0} is a {1}!".format(philo.name, philo.species))
+print("{1} is a {0}!".format(philo.name, philo.species))
+
+https://o7planning.org/vi/11415/lop-va-doi-tuong-trong-python#a7525418
