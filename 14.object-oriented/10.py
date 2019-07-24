@@ -87,14 +87,13 @@ class Game_Array:
         if out_loop==True:
             self.winner=self.check(string)
 
-        return self.winner
 
     def check_full(self):
         for row in range (6):
             for colunm in range (7):
                 if self.A[row][colunm]!=0:
                     self.count+=1
-        return self.count
+ 
         
     def play(self):
         while self.winner==0 and self.count!=6*7:
