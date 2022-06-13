@@ -25,9 +25,8 @@ elif (no[1]!='-' or no[5]!='-' or no[9]!='-' or no[0]!='1'):
 else:
     for i in range (len(no)):
         if no[i] not in list_valid:
-            valid+=1
-            
-if valid!=0:
-    print("Invalid5")
-else:
-    print("Valid")
+            valid+=1      
+    if valid!=0:
+        print("Invalid5")
+    else:
+        print("Valid")
