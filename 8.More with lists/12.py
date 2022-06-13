@@ -22,6 +22,7 @@ elif no.count('-')==2:
         
 elif (no[1]!='-' or no[5]!='-' or no[9]!='-' or no[0]!='1'):
     print('Invalid4')
+
 else:
     for i in range (len(no)):
         if no[i] not in list_valid:
