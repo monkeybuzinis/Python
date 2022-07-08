@@ -8,14 +8,16 @@ money=100
 coin=["head","tail"]
 
 guess=input("your guess: ")
-while guess not in coin:
+g =guess.lower()
+while g not in coin:
     guess=input("guess correctly please: ")
+    g =guess.lower()
 
 from random import choice
 flip=choice(coin)
 
 while money>0 and money<=200:
-    if flip==guess:
+    if flip==g:
         money+=9
     else:
         money-=10
@@ -23,9 +25,9 @@ while money>0 and money<=200:
     #play again
     flip=choice(coin)
     guess=input("your guess: ")
-    while guess not in coin:
+    g=guess.lower()
+    while g not in coin:
         guess=input("guess correctly please: ")
-    
+        g=guess.lower()
 else:
     print("GAME END, you got: ",money)
-
