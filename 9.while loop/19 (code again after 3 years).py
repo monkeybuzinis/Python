@@ -19,7 +19,6 @@ while possible==0:
 
             for i in range (row+1):
                 not_use_colunm+=[matrix[i][colunm]]
-            print(not_use_colunm)
 
             #eliminate the numbers already exist in colunm and row
             can_use=[]
